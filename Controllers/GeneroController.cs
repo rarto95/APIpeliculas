@@ -50,7 +50,7 @@ namespace APIpeliculas.Controllers
 }
 
 /*status code
- 
+ o
 200(200 a 299) son OK del controllerbase, son buenos - Ok,
 ,
 400(400 a 499) que algo se pidio de mala manera - Bad Request,
