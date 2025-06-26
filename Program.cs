@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDBContext>(options=>options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddAutoMapper(typeof(Program)); //busca en todo el ensamblado los profiles
 
 var app = builder.Build();
 
